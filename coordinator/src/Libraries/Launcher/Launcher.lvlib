@@ -20,6 +20,9 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Set Captures Folder Argument--cluster.ctl" Type="VI" URL="../Set Captures Folder Argument--cluster.ctl"/>
+				<Item Name="Set Capture Detection Loop Timeout Argument--cluster.ctl" Type="VI" URL="../Set Capture Detection Loop Timeout Argument--cluster.ctl"/>
+				<Item Name="Trigger Capture Detection Loop Argument--cluster.ctl" Type="VI" URL="../Trigger Capture Detection Loop Argument--cluster.ctl"/>
+				<Item Name="Trigger Capture Detection Loop (Reply Payload)--cluster.ctl" Type="VI" URL="../Trigger Capture Detection Loop (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -35,6 +38,8 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Set Captures Folder.vi" Type="VI" URL="../Set Captures Folder.vi"/>
+			<Item Name="Set Capture Detection Loop Timeout.vi" Type="VI" URL="../Set Capture Detection Loop Timeout.vi"/>
+			<Item Name="Trigger Capture Detection Loop.vi" Type="VI" URL="../Trigger Capture Detection Loop.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
