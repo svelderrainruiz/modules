@@ -29,6 +29,8 @@
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Start Capture Detection Loop Argument--cluster.ctl" Type="VI" URL="../Start Capture Detection Loop Argument--cluster.ctl"/>
+				<Item Name="Benchmark Started Argument--cluster.ctl" Type="VI" URL="../Benchmark Started Argument--cluster.ctl"/>
+				<Item Name="Broadcast number of frames and run ID Argument--cluster.ctl" Type="VI" URL="../Broadcast number of frames and run ID Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -58,6 +60,8 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Start Capture Detection Loop.vi" Type="VI" URL="../Start Capture Detection Loop.vi"/>
+		<Item Name="Benchmark Started.vi" Type="VI" URL="../Benchmark Started.vi"/>
+		<Item Name="Broadcast number of frames and run ID.vi" Type="VI" URL="../Broadcast number of frames and run ID.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
