@@ -13,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Capture detection loop data--cluster.ctl" Type="VI" URL="../Libraries/Launcher/Capture detection loop data--cluster.ctl"/>
 			<Item Name="Launcher.lvlib" Type="Library" URL="../Libraries/Launcher/Launcher.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">

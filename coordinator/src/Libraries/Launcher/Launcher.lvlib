@@ -89,7 +89,9 @@
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
-		<Item Name="Detect latest run.vi" Type="VI" URL="../Detect latest run.vi"/>
+		<Item Name="LCDL Business Logic.vi" Type="VI" URL="../LCDL Business Logic.vi"/>
+		<Item Name="New Frame Trigger.vi" Type="VI" URL="../New Frame Trigger.vi"/>
+		<Item Name="New Run Trigger.vi" Type="VI" URL="../New Run Trigger.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
