@@ -93,6 +93,7 @@
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
+		<Item Name="Launch Core Instance.vi" Type="VI" URL="../Launch Core Instance.vi"/>
 		<Item Name="LCDL Business Logic.vi" Type="VI" URL="../LCDL Business Logic.vi"/>
 		<Item Name="New Frame Trigger.vi" Type="VI" URL="../New Frame Trigger.vi"/>
 		<Item Name="New Run Trigger.vi" Type="VI" URL="../New Run Trigger.vi"/>
