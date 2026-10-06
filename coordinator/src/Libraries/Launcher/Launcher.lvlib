@@ -23,6 +23,10 @@
 				<Item Name="Set Capture Detection Loop Timeout Argument--cluster.ctl" Type="VI" URL="../Set Capture Detection Loop Timeout Argument--cluster.ctl"/>
 				<Item Name="Trigger Capture Detection Loop Argument--cluster.ctl" Type="VI" URL="../Trigger Capture Detection Loop Argument--cluster.ctl"/>
 				<Item Name="Trigger Capture Detection Loop (Reply Payload)--cluster.ctl" Type="VI" URL="../Trigger Capture Detection Loop (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Application Mode Argument--cluster.ctl" Type="VI" URL="../Set Application Mode Argument--cluster.ctl"/>
+				<Item Name="Application Mode Argument--cluster.ctl" Type="VI" URL="../Application Mode Argument--cluster.ctl"/>
+				<Item Name="Set Run ID to Replay Argument--cluster.ctl" Type="VI" URL="../Set Run ID to Replay Argument--cluster.ctl"/>
+				<Item Name="Set Replay Run ID Argument--cluster.ctl" Type="VI" URL="../Set Replay Run ID Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -42,6 +46,10 @@
 			<Item Name="Set Captures Folder.vi" Type="VI" URL="../Set Captures Folder.vi"/>
 			<Item Name="Set Capture Detection Loop Timeout.vi" Type="VI" URL="../Set Capture Detection Loop Timeout.vi"/>
 			<Item Name="Trigger Capture Detection Loop.vi" Type="VI" URL="../Trigger Capture Detection Loop.vi"/>
+			<Item Name="Set Application Mode.vi" Type="VI" URL="../Set Application Mode.vi"/>
+			<Item Name="Application Mode.vi" Type="VI" URL="../Application Mode.vi"/>
+			<Item Name="Set Run ID to Replay.vi" Type="VI" URL="../Set Run ID to Replay.vi"/>
+			<Item Name="Set Replay Run ID.vi" Type="VI" URL="../Set Replay Run ID.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>

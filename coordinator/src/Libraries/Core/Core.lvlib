@@ -20,6 +20,7 @@
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
 				<Item Name="LaunchEventRecorder Argument--cluster.ctl" Type="VI" URL="../LaunchEventRecorder Argument--cluster.ctl"/>
 				<Item Name="Resubscribe to Cloneable Argument--cluster.ctl" Type="VI" URL="../Resubscribe to Cloneable Argument--cluster.ctl"/>
+				<Item Name="LaunchReplayModule Argument--cluster.ctl" Type="VI" URL="../LaunchReplayModule Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -34,6 +35,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="LaunchEventRecorder.vi" Type="VI" URL="../LaunchEventRecorder.vi"/>
 			<Item Name="Resubscribe to Cloneable.vi" Type="VI" URL="../Resubscribe to Cloneable.vi"/>
+			<Item Name="LaunchReplayModule.vi" Type="VI" URL="../LaunchReplayModule.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
