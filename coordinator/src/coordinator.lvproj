@@ -23,6 +23,18 @@
 			<Item Name="Replay.lvlib" Type="Library" URL="../Libraries/Replay/Replay.lvlib"/>
 			<Item Name="UserEventRecorder.lvlib" Type="Library" URL="../Libraries/UserEventRecorder/UserEventRecorder.lvlib"/>
 		</Item>
+		<Item Name="SendInput" Type="Folder">
+			<Item Name="_SendInput Keyboard Example.vi" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/_SendInput Keyboard Example.vi"/>
+			<Item Name="SendInput ClickOnPoint.vi" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput ClickOnPoint.vi"/>
+			<Item Name="SendInput Event.ctl" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput Event.ctl"/>
+			<Item Name="SendInput Key.ctl" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput Key.ctl"/>
+			<Item Name="SendInput Key.vi" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput Key.vi"/>
+			<Item Name="SendInput Keys.vi" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput Keys.vi"/>
+			<Item Name="SendInput Modifier.ctl" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput Modifier.ctl"/>
+			<Item Name="SendInput Modifiers to Keys.vi" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput Modifiers to Keys.vi"/>
+			<Item Name="SendInput String to Keys.vi" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput String to Keys.vi"/>
+			<Item Name="SendInput Virtual Key Code.ctl" Type="VI" URL="/&lt;vilib&gt;/SendInput/SendInput.llb/SendInput Virtual Key Code.ctl"/>
+		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Core API.vi" Type="VI" URL="../Libraries/Core/Test Core API.vi"/>
 			<Item Name="Test Launcher API.vi" Type="VI" URL="../Libraries/Launcher/Test Launcher API.vi"/>
