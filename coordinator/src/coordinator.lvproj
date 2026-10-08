@@ -30,6 +30,48 @@
 			<Item Name="Test UserEventRecorder API.vi" Type="VI" URL="../Libraries/UserEventRecorder/Test UserEventRecorder API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Launcher" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F12C501D-3EFA-4510-8ED6-B7F24AD8B53E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1486F5D6-EBA1-44AA-A6FC-E8AE230A6FC3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8C84B17A-4B26-48AF-B23F-70F64B9B7772}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Launcher</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Launcher</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A20EA56E-2DEC-4D2C-A9D8-BC26FF22A571}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Launcher.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Launcher/Launcher.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Launcher/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{962C65AC-8F48-4DEB-BD6F-7E4A072DE359}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Testers/Test Launcher API.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">VI Technologies</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Launcher</Property>
+				<Property Name="TgtF_internalName" Type="Str">Launcher</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 VI Technologies</Property>
+				<Property Name="TgtF_productName" Type="Str">Launcher</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0B0AAE64-B8DC-4BFA-8270-97AA661322D0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Launcher.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
