@@ -41,7 +41,7 @@
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Broadcast Events--cluster.ctl" Type="VI" URL="../Broadcast Events--cluster.ctl"/>
 		<Item Name="Obtain Broadcast Events.vi" Type="VI" URL="../Obtain Broadcast Events.vi"/>

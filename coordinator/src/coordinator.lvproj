@@ -22,6 +22,7 @@
 			<Item Name="Launcher.lvlib" Type="Library" URL="../Libraries/Launcher/Launcher.lvlib"/>
 			<Item Name="Replay.lvlib" Type="Library" URL="../Libraries/Replay/Replay.lvlib"/>
 			<Item Name="UserEventRecorder.lvlib" Type="Library" URL="../Libraries/UserEventRecorder/UserEventRecorder.lvlib"/>
+			<Item Name="RecordMode.ctl" Type="VI" URL="../../../RecordMode.ctl"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Core API.vi" Type="VI" URL="../Libraries/Core/Test Core API.vi"/>
@@ -29,6 +30,10 @@
 			<Item Name="Test Replay API.vi" Type="VI" URL="../Libraries/Replay/Test Replay API.vi"/>
 			<Item Name="Test UserEventRecorder API.vi" Type="VI" URL="../Libraries/UserEventRecorder/Test UserEventRecorder API.vi"/>
 		</Item>
+		<Item Name="CaptureJSONtypedef.ctl" Type="VI" URL="../../../CaptureJSONtypedef.ctl"/>
+		<Item Name="ReplayMode.ctl" Type="VI" URL="../../../ReplayMode.ctl"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../Untitled 1.vi"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../../../Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Launcher" Type="EXE">
