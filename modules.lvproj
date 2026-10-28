@@ -54,11 +54,11 @@
 							<Item Name="Core.lvproj" Type="Document" URL="../coordinator/src/Libraries/Core/Core.lvproj"/>
 						</Item>
 						<Item Name="Launcher" Type="Folder">
+							<Property Name="NI.SortType" Type="Int">3</Property>
 							<Item Name="Capture detection loop data--cluster.ctl" Type="VI" URL="../coordinator/src/Libraries/Launcher/Capture detection loop data--cluster.ctl"/>
 							<Item Name="captures file info metadata--cluster.ctl" Type="VI" URL="../coordinator/src/Libraries/Launcher/captures file info metadata--cluster.ctl"/>
 							<Item Name="Launcher.lvlib" Type="Library" URL="../coordinator/src/Libraries/Launcher/Launcher.lvlib"/>
 							<Item Name="Mode.ctl" Type="VI" URL="../coordinator/src/Libraries/Launcher/Mode.ctl"/>
-							<Item Name="Test Launcher API.vi" Type="VI" URL="../coordinator/src/Libraries/Launcher/Test Launcher API.vi"/>
 						</Item>
 						<Item Name="UserEventRecorder" Type="Folder">
 							<Item Name="Clone Registration" Type="Folder"/>
@@ -74,7 +74,6 @@
 							<Item Name="MouseLUT.vi" Type="VI" URL="../coordinator/src/Libraries/UserEventRecorder/MouseLUT.vi"/>
 							<Item Name="Replay.lvlib" Type="Library" URL="../../replay/Replay/src/Libraries/Replay/Replay.lvlib"/>
 							<Item Name="SerializedKeyPress.ctl" Type="VI" URL="../coordinator/src/Libraries/UserEventRecorder/SerializedKeyPress.ctl"/>
-							<Item Name="Test UserEventRecorder API.vi" Type="VI" URL="../coordinator/src/Libraries/UserEventRecorder/Test UserEventRecorder API.vi"/>
 							<Item Name="TestEvent.ctl" Type="VI" URL="../coordinator/src/Libraries/UserEventRecorder/TestEvent.ctl"/>
 							<Item Name="testSample.vi" Type="VI" URL="../coordinator/src/Libraries/UserEventRecorder/testSample.vi"/>
 							<Item Name="UserEventRecorder.lvlib" Type="Library" URL="../coordinator/src/Libraries/UserEventRecorder/UserEventRecorder.lvlib"/>
@@ -167,7 +166,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/ProgramData/LabVIEW Benchmark Actor Plugins</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E06F1D01-677B-4AB8-90A5-0125AE23B77E}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/ProgramData/LabVIEW Benchmark Actor Plugins</Property>
@@ -177,7 +176,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/ProgramData/LabVIEW Benchmark Actor Plugins/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A4F71073-75D3-4D3F-BB83-3BF2ACD93618}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{42003DFB-BD03-4AFF-8622-40F1861730FC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/modules/coordinator/src/Libraries/UserEventRecorder/Replay.lvlib</Property>
@@ -211,7 +210,12 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/modules/ReplayMode.ctl</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/modules</Property>
+				<Property Name="Source[8].newName" Type="Str">sd_</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 		</Item>
 	</Item>

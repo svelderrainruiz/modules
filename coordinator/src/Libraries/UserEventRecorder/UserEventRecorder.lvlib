@@ -125,4 +125,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="SaveUserEventsToDisk.vi" Type="VI" URL="../SaveUserEventsToDisk.vi"/>
+	<Item Name="Test UserEventRecorder API.vi" Type="VI" URL="../Test UserEventRecorder API.vi"/>
 </Library>
